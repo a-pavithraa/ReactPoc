@@ -1,0 +1,133 @@
+$base-theme:Bootstrap;
+$skin-name:AutoExceptionsTheme;
+$swatch-name:Bootstrap;
+$border-radius: 0.25rem;
+$accent: #007bff;
+$secondary: #e4e7eb;
+$info: #17a2b8;
+$success: #28a745;
+$warning: #ffc107;
+$error: #dc3545;
+$body-bg: #ffffff;
+$body-color: #292b2c;
+$component-bg: #ffffff;
+$component-color: #292b2c;
+$card-cap-bg: #266c8c;
+$card-cap-color: #f1f7f8;
+$series-a: #04476c;
+$series-b: #5bc0de;
+$series-c: #5cb85c;
+$series-d: #f0ad4e;
+$series-e: #e67d4a;
+$series-f: #d9534f;
+
+//$card-cap-bg: rgb(88,68,117);
+
+// Import only the PanelBar and Grid styles
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "~@progress/kendo-theme-bootstrap/scss/all.scss";
+
+div.k-calendar-container{
+ 
+  z-index: 22000;
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+      width: 20%;
+      float: left;
+  }
+}
+
+
+.k-tabstrip-items .k-link {
+  padding: 1rem 1rem;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  vertical-align: middle;
+  flex: 1 1 auto;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.wrapper {
+  color: #ffffff;
+  background-color: #eeeeee;
+  float:right;
+}
+
+.inner-wrapper {
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+.k-widget.k-grid{
+  border:none;
+}
+.k-content{
+  background-color: transparent;
+}
+.btn {
+ 
+  font-size:12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.k-dateinput, .k-datepicker, .k-datetimepicker, .k-timepicker {
+  width: 7.4em;
+}
+.k-dateinput .k-dateinput-wrap .k-input, .k-dateinput .k-picker-wrap .k-input, .k-datepicker .k-dateinput-wrap .k-input, .k-datepicker .k-picker-wrap .k-input, .k-datetimepicker .k-dateinput-wrap .k-input, .k-datetimepicker .k-picker-wrap .k-input, .k-timepicker .k-dateinput-wrap .k-input, .k-timepicker .k-picker-wrap .k-input {
+  padding: 2px;
+  width: 80%;
+  height: inherit;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  background: none;
+  font-size:11px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  flex: 0 1 auto;
+  
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+label {
+ 
+   margin-bottom: 0px; 
+}
+.k-grid{
+  background-color: #dcf5f5;
+  border-bottom: inherit;
+
+}
+
+ .k-grid th, .k-grid td {
+ 
+  font-size: 12px;
+  
+}
+.k-grid-header .k-header {
+ 
+  font-weight: bolder;
+}
+.k-toolbar{
+  background-color: rgb(50,76,127);
+}
+
+@media (min-width: 1200px) {
+  .k-window-content, .k-prompt-container {
+    padding: 1rem 1rem;
+    border-width: 0;
+    color: inherit;
+    background: none;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    flex: 1 1 auto;
+  }
+}
